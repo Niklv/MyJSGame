@@ -4,9 +4,9 @@
             .cube1, .cube2 {background-color: #FFF; width: 15px;height: 15px;position: absolute;top: 0;left: 0; -webkit-animation: sk-cubemove 1.8s infinite ease-in-out;animation: sk-cubemove 1.8s infinite ease-in-out;} \
             .cube2 { -webkit-animation-delay: -0.9s;animation-delay: -0.9s;} \
             @-webkit-keyframes sk-cubemove { \
-            25% { -webkit-transform: translateX(42px) rotate(-90deg) scale(0.5) } \
+            25% { -webkit-transform: translateX(42px) rotate(-90deg) scale(0.1) } \
             50% { -webkit-transform: translateX(42px) translateY(42px) rotate(-180deg) } \
-            75% { -webkit-transform: translateX(0px) translateY(42px) rotate(-270deg) scale(0.5) } \
+            75% { -webkit-transform: translateX(0px) translateY(42px) rotate(-270deg) scale(0.1) } \
             100% { -webkit-transform: rotate(-360deg) }} \
             @keyframes sk-cubemove { \
             25% {transform: translateX(42px) rotate(-90deg) scale(0.5); -webkit-transform: translateX(42px) rotate(-90deg) scale(0.5);} \

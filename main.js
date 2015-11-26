@@ -48,6 +48,7 @@
  */
 
 cc.game.onStart = function(){
+    return;
     if(!cc.sys.isNative && document.getElementById("cocosLoading")) {
         document.head.removeChild(document.getElementById("loadingStyles"));
         document.body.removeChild(document.getElementById("cocosLoading"));
